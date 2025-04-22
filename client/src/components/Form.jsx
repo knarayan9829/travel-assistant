@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { UserContext } from '../context/UserContext';
-import './form.css';
+import './Form.css';
 
 const Form = ({ onComplete }) => {
   const { setUserData } = useContext(UserContext);
