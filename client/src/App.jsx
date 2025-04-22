@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Tabs from './components/Tabs';
 import Header from './components/Header';
 import LandingSection from './components/LandingSection';
+import './index.css';
 
 const App = () => {
   const [submitted, setSubmitted] = useState(false);

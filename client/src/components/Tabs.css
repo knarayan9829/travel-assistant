@@ -1,0 +1,44 @@
+.tabs-container {
+    width: calc(100% - 160px);
+    align-items: center;
+    margin-top:40px;
+    font-family: 'Gotham Medium', sans-serif;
+  }
+  
+  .tab-header {
+    display: flex;
+    gap: 1rem;
+    background-color: #E6E6E6;
+    padding: 1rem;
+    border-radius: 12px;
+    width: max-content;
+  }
+  
+  .tab-button {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 999px;
+    background-color: transparent;
+    font-size: calc(1rem + 0.2vw);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Gotham Medium', sans-serif;
+    color: #333;
+  }
+  
+  .tab-button:hover {
+    opacity: 0.8;
+  }
+  
+  .active-tab {
+    background: linear-gradient(45deg, #6AA1FF, #883FFF, #EF00FF);
+    color: white;
+  }
+  
+  .chat-wrapper {
+    background-color: #F7F7F7;
+    margin-top: 1rem;
+    border-radius: 20px;
+    padding: 1.5rem;
+  }
+  

@@ -1,7 +1,8 @@
-import React, { useState, useContext, useEffect } from 'react';
+import React, { useState, useContext } from 'react';
 import { UserContext } from '../context/UserContext';
 import { sendToCohere, sendToLlama } from '../api/api';
 import './ChatBox.css';
+import avatar from '../assets/assistant-avatar.png';
 
 const ChatBox = ({ model }) => {
   const { userData } = useContext(UserContext);
@@ -40,27 +41,30 @@ const ChatBox = ({ model }) => {
         {messages.map((msg, i) => (
           <div key={i} className={`message ${msg.role}`}>
             {msg.role === 'bot' && (
-              <img src="/assistant-avatar.png" className="avatar" alt="Bot" />
+              <img src={avatar} className="avatar" alt="Bot" />
             )}
             <div className="bubble">{msg.content}</div>
           </div>
         ))}
         {isTyping && (
           <div className="message bot">
-            <img src="/assistant-avatar.png" className="avatar" alt="Bot" />
+            <img src={avatar} className="avatar" alt="Bot" />
             <div className="bubble">Typing...</div>
           </div>
         )}
       </div>
-      <input
-        value={input}
-        onChange={(e) => setInput(e.target.value)}
-        className="w-full p-2 border rounded mb-2"
-        placeholder="Type your message..."
-      />
-      <button onClick={sendMessage} className="bg-green-600 text-white px-4 py-2 rounded">
-        Send
-      </button>
+
+      <div className="chat-input-grid">
+        <input
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          className="chat-input"
+          placeholder="Type your message..."
+        />
+        <button onClick={sendMessage} className="chat-send-button">
+          Send Message
+        </button>
+      </div>
     </div>
   );
 };

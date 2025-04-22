@@ -5,3 +5,5 @@
 body {
   font-family: system-ui, sans-serif;
 }
+
+.max-w-6xl.mx-auto.mt-8{justify-items: center;}

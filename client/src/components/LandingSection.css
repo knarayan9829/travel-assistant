@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 80px;
     width: calc(100% - 160px);
-    height: calc(100vh - 150px);
+    min-height: calc(100vh - 150px);
     margin: 0 auto;
     align-items: center;
     padding: 40px 0;
@@ -24,4 +24,3 @@
     object-fit: contain;
     border-radius: 16px;
   }
-  
