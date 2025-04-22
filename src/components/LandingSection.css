@@ -1,0 +1,27 @@
+.landing-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    width: calc(100% - 160px);
+    height: calc(100vh - 150px);
+    margin: 0 auto;
+    align-items: center;
+    padding: 40px 0;
+  }
+  
+  .landing-form {
+    width: 100%;
+  }
+  
+  .landing-image-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .landing-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 16px;
+  }
+  

@@ -1,0 +1,99 @@
+@import url("https://use.typekit.net/ews4ieq.css");
+
+.landing-section {
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 300;
+  color: white;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.gradient-bg {
+  background: linear-gradient(45deg, #6AA1FF, #883FFF, #EF00FF);
+  padding: 2rem;
+}
+
+.landing-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 0;
+}
+
+.logo {
+  width: 160px;
+  height: auto;
+}
+
+.landing-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+@media (min-width: 768px) {
+  .landing-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+.left-pane {
+  flex: 1;
+  max-width: 600px;
+}
+
+.right-pane {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 500px;
+}
+
+.headline {
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.subtext {
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  max-width: 400px;
+}
+
+/* Form improvements */
+form {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 10px;
+  backdrop-filter: blur(6px);
+}
+
+form label {
+  color: #fff;
+}
+
+form input {
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
+  border: none;
+}
+
+form button {
+  background-color: #EF00FF;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #d600d1;
+}

@@ -1,0 +1,72 @@
+.form-container {
+    background: linear-gradient(45deg, #6AA1FF, #883FFF, #EF00FF);
+    border-radius: 30px;
+    padding: clamp(1rem, 4vw, 2.5rem);
+    display: grid;
+    gap: clamp(1rem, 2vw, 1.5rem);
+    font-family: canada-type-gibson, sans-serif;
+  }
+  
+  .form-row {
+    display: grid;
+    width: 100%;
+    row-gap: clamp(0.75rem, 2vw, 1rem);
+  }
+  
+  .form-row.two-cols {
+    grid-template-columns: 0.3fr 0.7fr;
+    column-gap: clamp(1rem, 3vw, 2rem);
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  label {
+    color:white;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-family: canada-type-gibson, sans-serif;
+    font-size: clamp(0.85rem, 1vw, 1rem);
+  }
+  
+  input {
+    padding: clamp(0.5rem, 0.8vw, 1rem) clamp(1rem, 2vw, 1.5rem);
+    border: none;
+    border-radius: 999px;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 500;
+    font-size: clamp(0.9rem, 1vw, 1rem);
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  input:hover{opacity: 0.8;}
+  input:focus{opacity:0.8; border:0px;outline:none;}
+  
+  .submit-button {
+    padding: clamp(0.5rem, 0.8vw, 1rem) clamp(1rem, 2vw, 1.5rem);
+    border-radius: 999px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 500;
+    font-family: canada-type-gibson, sans-serif;
+    font-size: clamp(1rem, 1.2vw, 1.1rem);
+    border: 2px solid white;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  }
+  .submit-button:hover{background-color: white;color: black;}
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .form-row.two-cols {
+      grid-template-columns: 1fr;
+    }
+  
+
+  }
+  
