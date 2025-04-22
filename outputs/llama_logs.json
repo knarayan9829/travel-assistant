@@ -1,0 +1,18 @@
+[
+  {
+    "timestamp": "2025-04-22T12:00:01.754Z",
+    "input": {
+      "name": "Karthik",
+      "age": "26",
+      "destination": "dubai",
+      "dates": "20th september",
+      "companions": "1",
+      "budget": "10000 usd",
+      "interests": "paragliding surfing",
+      "accessibility": "-",
+      "message": "Hi"
+    },
+    "model": "llama",
+    "response": "Here's a personalized travel plan for Karthik:\n\nDear Karthik,\n\nThank you for reaching out to us for a customized travel plan to Dubai! Based on your preferences, we've crafted an exciting itinerary that includes thrilling activities, luxurious stays, and memorable experiences.\n\n**Destination:** Dubai\n\n**Travel Dates:** September 20th\n\n**Companions:** 1\n\n**Budget:** 10000 USD\n\n**Interests:** Paragliding, Surfing\n\n**Accessibility Needs:** -\n\nHere's your personalized travel plan:\n\n**Day 1 (September 20th)**\n\n* Morning: Arrive in Dubai and check-in to your luxurious hotel, the Address Downtown Dubai. Enjoy the stunning views of the Burj Khalifa.\n* Afternoon: Take a desert safari with a thrilling dune bashing experience, followed by a relaxing evening under the stars.\n* Evening: Enjoy a lavish dinner at the renowned restaurant, Armani/Ristorante, located on the 39th floor of the Burj Khalifa.\n\n**Day 2**\n\n* Morning: Begin the day with a paragliding experience at the Skydive Dubai Desert Campus. Get a bird's-eye view of the city and the stunning Arabian Desert.\n* Afternoon: Take a surfing lesson at the Kite Beach, where you can ride the waves and enjoy the sun-kissed beach.\n* Evening: Relax and unwind with a rejuvenating spa treatment at the Talise Spa, located in the iconic Burj Al Arab.\n\n**Day 3**\n\n* Morning: Explore the iconic Palm Jumeirah and visit the stunning Atlantis, The Palm hotel. Enjoy a leisurely stroll along the beach and take in the breathtaking views.\n* Afternoon: Visit the Dubai Miracle Garden, a floral wonderland with over 45 million flowers arranged in stunning designs.\n* Evening: Enjoy a sumptuous dinner at the Michelin-starred restaurant, Zuma, located at the Downtown Dubai.\n\n**Budget Breakdown:**\n\n* Accommodation: 5000 USD (Address Downtown Dubai)\n* Transportation: 1000 USD (desert safari, paragliding, and other activities)\n* Food and Beverage: 2000 USD (dinner at Armani/Ristorante, lunch and dinner at other restaurants)\n* Activities and Entrance Fees: 2000 USD (paragliding, surfing, desert safari, and other activities)\n* Miscellaneous: 1000 USD (souvenirs, tips, and other expenses)\n\nTotal: 10000"
+  }
+]

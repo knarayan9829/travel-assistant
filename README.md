@@ -1,1 +1,1 @@
-# travel-assistant
+# Placeholder for README.md

@@ -1,0 +1,7 @@
+# Ignore node_modules and Python model folder
+node_modules/
+llama3_models/
+.env
+__pycache__/
+*.pyc
+.DS_Store
